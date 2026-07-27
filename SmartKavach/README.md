@@ -14,9 +14,9 @@ An intelligent overlay on India's KAVACH / TCAS railway safety platform, adding 
 KAVACH is India's national train collision avoidance system. It works well but uses fixed, rule-based logic. SmartKavach adds an AI layer on top that:
 
 - **Predicts safe Movement Authority** distances dynamically using weather, load, and track data
-- **Detects anomalies in real time** — unusual RFID failures, radio drops, braking patterns — before they become dangerous
+- **Detects anomalies in real time**  unusual RFID failures, radio drops, braking patterns before they become dangerous
 - **Generates adaptive speed profiles** per train per section based on current conditions
-- **Powers an intelligent NMS dashboard** with fault prediction and a natural-language query interface
+- **Powers an intelligent NMS dashboard** with fault prediction and a natural language query interface
 
 ---
 
@@ -27,7 +27,7 @@ SmartKavach/
 │
 ├── data/
 │   ├── raw/              ← Your real data goes here (not committed to Git)
-│   ├── processed/        ← Cleaned, feature-engineered data
+│   ├── processed/        ← Cleaned, feature engineered data
 │   └── synthetic/        ← Simulator-generated training data
 │
 ├── models/
