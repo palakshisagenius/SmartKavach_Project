@@ -150,8 +150,8 @@ pytest tests/
 |-------|-------|
 | Name | Palaksh Bhardwaj |
 | Programme | B.Tech CSE (Artificial Intelligence) |
-| Institution | Gautam Budh University, Greater Noida |
-| Academic Year | 2025–2026 |
+| Institution | Gautam Buddha University |
+
 
 ---
 
