@@ -1,5 +1,9 @@
 # SmartKavach 🚆
-
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange)
+![Tests](https://img.shields.io/badge/Tests-10%2F10%20passing-brightgreen)
+![Validated](https://img.shields.io/badge/Validated-RDSO%20Trial%20Data-blue)
 **AI-Enhanced Train Collision Avoidance System**  
 An intelligent overlay on India's KAVACH / TCAS railway safety platform, adding predictive Movement Authority computation, real-time anomaly detection, and adaptive speed profiling.
 
