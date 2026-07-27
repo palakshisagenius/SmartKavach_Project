@@ -7,7 +7,7 @@
 
 ## Live Dashboard Preview
 
-![SmartKavach NMS Dashboard](SmartKavach/docs/dashboard_screenshot.png)
+![SmartKavach NMS Dashboard](https://github.com/palakshisagenius/SmartKavach_Project/blob/main/SmartKavach/docs/dashboard_screenshot.png?raw=true)
 
 **AI-Enhanced Train Collision Avoidance System**  
 An intelligent overlay on India's KAVACH / TCAS railway safety platform, adding predictive Movement Authority computation, real-time anomaly detection, and adaptive speed profiling.
