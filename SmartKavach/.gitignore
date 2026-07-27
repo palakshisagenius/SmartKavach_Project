@@ -1,0 +1,62 @@
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# ── Virtual environments ─────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ── Secrets — NEVER commit these ────────────────────
+.env
+*.key
+*.pem
+secrets/
+
+# ── Jupyter notebooks ────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files — keep raw data out of Git ───────────
+data/raw/*
+data/processed/*
+data/synthetic/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/synthetic/.gitkeep
+
+# ── Trained model files (can be large) ──────────────
+models/saved/*.h5
+models/saved/*.pkl
+models/saved/*.json
+models/saved/*.pt
+!models/saved/.gitkeep
+
+# ── OS files ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ──────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Test and coverage output ─────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ── Logs ─────────────────────────────────────────────
+*.log
+logs/

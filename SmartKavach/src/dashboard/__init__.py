@@ -1,0 +1,1 @@
+# SmartKavach dashboard module

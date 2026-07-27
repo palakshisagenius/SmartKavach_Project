@@ -1,0 +1,1 @@
+# SmartKavach models module
