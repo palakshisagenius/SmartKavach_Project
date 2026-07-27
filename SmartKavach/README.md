@@ -4,14 +4,14 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange)
 ![Tests](https://img.shields.io/badge/Tests-10%2F10%20passing-brightgreen)
 ![Validated](https://img.shields.io/badge/Validated-RDSO%20Trial%20Data-blue)
-**AI-Enhanced Train Collision Avoidance System**  
-An intelligent overlay on India's KAVACH / TCAS railway safety platform, adding predictive Movement Authority computation, real-time anomaly detection, and adaptive speed profiling.
+**AI Enhanced Train Collision Avoidance System**  
+An intelligent overlay on India's KAVACH (TCAS) railway safety platform, adding predictive Movement Authority computation, real time anomaly detection, and adaptive speed profiling.
 
 ---
 
 ## What this project does
 
-KAVACH is India's national train collision avoidance system. It works well but uses fixed, rule-based logic. SmartKavach adds an AI layer on top that:
+KAVACH is Indian Railways Train collision avoidance system(TCAS). It works well but it uses fixed, rule-based logic. SmartKavach adds an AI layer on top that:
 
 - **Predicts safe Movement Authority** distances dynamically using weather, load, and track data
 - **Detects anomalies in real time**  unusual RFID failures, radio drops, braking patterns before they become dangerous
@@ -127,6 +127,21 @@ pytest tests/
 | 2 | MA model, anomaly detector, speed profiler | 4–8 |
 | 3 | FastAPI server, React dashboard, LLM interface | 9–12 |
 | 4 | Tests, final report, presentation, demo | 13–16 |
+
+---
+
+## Model Performance
+
+| Model | Algorithm | Key Metric | Result |
+|-------|-----------|-----------|--------|
+| Movement Authority | XGBoost | RMSE | 19.05m |
+| Movement Authority | XGBoost | R² | 0.99 |
+| Anomaly Detection | LSTM Autoencoder | Recall | 1.00 |
+| Anomaly Detection | LSTM Autoencoder | Accuracy | 95% |
+| Speed Profiler | Random Forest | RMSE | 0.72 km/h |
+| Speed Profiler | Random Forest | R² | 0.9986 |
+
+Validated against real KAVACH RDSO trial data (NCR Division, July 2024) . MA model achieves less than 10% error on real observed values.
 
 ---
 
