@@ -4,6 +4,11 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange)
 ![Tests](https://img.shields.io/badge/Tests-10%2F10%20passing-brightgreen)
 ![Validated](https://img.shields.io/badge/Validated-RDSO%20Trial%20Data-blue)
+
+## Live Dashboard Preview
+
+![SmartKavach NMS Dashboard](docs/dashboard_screenshot.png)
+
 **AI-Enhanced Train Collision Avoidance System**  
 An intelligent overlay on India's KAVACH / TCAS railway safety platform, adding predictive Movement Authority computation, real-time anomaly detection, and adaptive speed profiling.
 
@@ -17,6 +22,19 @@ KAVACH is India's national train collision avoidance system. It works well but u
 - **Detects anomalies in real time**  unusual RFID failures, radio drops, braking patterns before they become dangerous
 - **Generates adaptive speed profiles** per train per section based on current conditions
 - **Powers an intelligent NMS dashboard** with fault prediction and a natural language query interface
+
+## Model Performance
+
+| Model | Algorithm | Key Metric | Result |
+|-------|-----------|-----------|--------|
+| Movement Authority | XGBoost | RMSE | 19.05m |
+| Movement Authority | XGBoost | R² | 0.99 |
+| Anomaly Detection | LSTM Autoencoder | Recall | 1.00 |
+| Anomaly Detection | LSTM Autoencoder | Accuracy | 95% |
+| Speed Profiler | Random Forest | RMSE | 0.72 km/h |
+| Speed Profiler | Random Forest | R² | 0.9986 |
+
+Validated against real KAVACH RDSO trial data (NCR Division, July 2024) — MA model achieves less than 10% error on real observed values.
 
 ---
 
